@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome CDN -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS Animation  -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>bootstrap</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .frist {
+            background-image: url(./img/hero-bg.png);
+            width: 100%;
+            height: 100vh;
+        }
+
+        .last {
+            background-image: url(./img/footer-bg.jpeg);
+            width: 100%;
+            height: 50vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, 0.407);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start header -->
+
+    <div class="frist">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-transparent mt-3">
+                    <div class="container-fluid">
+                        <img src="./img/hero-logo.png" alt="" height="50px" width="50px" data-aos="fade-right" {
+                            data-aos-delay="80" data-aos-duration="1500" }>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon bg-info"></span>
+                        </button>
+                        <div class="collapse navbar-collapse offset-1" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5" data-aos="fade-down" { data-aos-delay="80"
+                                data-aos-duration="1500" }>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown z-1 ">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu text-white">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search" data-aos="fade-left" { data-aos-delay="80"
+                                data-aos-duration="1500" }>
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- end header -->
+
+        <!-- section 1 start -->
+
+        <div class="container position-absolute top-50 start-50 translate-middle">
+            <div class="row" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                <img src="./img/hero-logo.png" alt="" height="140px" style="width:170px;" class="mx-auto">
+            </div>
+            <div class="row text-white text-center mt-5 fs-1" data-aos="zoom-in" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="fw-bold">Welcome To Knight Studios</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3" data-aos="zoom-in" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</p>
+            </div>
+            <div class="row mt-3" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                <button type="button" class="btn btn-outline-success mx-auto" style="width: 200px; height: 60px;">GET
+                    STARTED</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 1 end -->
+
+    <!-- section 2 start -->
+
+    <div class="container-fluid" style="background-color: #212121; height: 100vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">ABOUT US</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>Magnam dolores commodi suscipit eius consequatur</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6 mt-5" data-aos="fade-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/about.jpeg" alt="" height="100%" width="90%" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+                <div class="col-6 text-white mt-5" data-aos="fade-left" { data-aos-delay="80" data-aos-duration="1500"
+                    }>
+                    <div class="row fs-2">
+                        <p>Voluptatem dignissimos provident quasi corporis</p>
+                    </div>
+                    <div class="row fst-italic ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="row ">
+                        <p><i class="fa-solid fa-check-double" style="color: #11ff00;"></i> &nbsp;&nbsp;&nbsp; Ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="row">
+                        <p><i class="fa-solid fa-check-double" style="color: #11ff00;"></i>&nbsp;&nbsp;&nbsp; Duis aute
+                            irure dolor in reprehenderit in voluptate velit.</p>
+                    </div>
+                    <div class="row">
+                        <p><i class="fa-solid fa-check-double" style="color: #11ff00;"></i>&nbsp;&nbsp;&nbsp; Ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2 end -->
+
+    <!-- section 3 start -->
+
+    <div class="container-fluid" style="background-color: #292929; height: 170vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">SERVICES</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6 text-white mt-5 pt-4">
+                    <div class="row">
+                        <div class="col-2 d-grid fs-1" style="gap:48px; width: 80px;" data-aos="fade-left" {
+                            data-aos-delay="80" data-aos-duration="1500" }>
+                            <i class="fa-regular fa-file-lines" style="color: #11ff00;"></i>
+                            <i class="fa-solid fa-cube" style="color: #11ff00;"></i>
+                            <i class="fa-regular fa-images" style="color: #11ff00;"></i>
+                            <i class="fa-solid fa-shield-halved" style="color: #11ff00;"></i>
+                        </div>
+                        <div class="col-10 d-grid" style="gap:20px;" data-aos="fade-right" { data-aos-delay="80"
+                            data-aos-duration="1500" }>
+                            <div class="row">
+                                <h5>Est labore ad</h5>
+                                <p class="fs-6">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris
+                                    nisi ut aliquip</p>
+                            </div>
+                            <div class="row">
+                                <h5>Harum esse qui</h5>
+                                <p class="fs-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                    officia deserunt</p>
+                            </div>
+                            <div class="row">
+                                <h5>Aut occaecati</h5>
+                                <p class="fs-6">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
+                                    facere</p>
+                            </div>
+                            <div class="row">
+                                <h5>Beatae veritatis</h5>
+                                <p class="fs-6">Expedita veritatis consequuntur nihil tempore laudantium vitae denat
+                                    pacta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mt-5" data-aos="fade-left" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/services.jpg" alt="" height="100%" width="90%" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+            </div>
+            <div class="row mt-5 pt-5">
+                <div class="col-6 mt-5" data-aos="fade-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/featured-1.png" alt="" height="100%" width="90%" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+                <div class="col-6 text-white mt-5" data-aos="fade-left" { data-aos-delay="80" data-aos-duration="1500"
+                    }>
+                    <div class="row mt-5">
+                        <h4 class="text-success fw-bold">Modi sit est</h4>
+                        <p class="fs-6">Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
+                    </div>
+                    <div class="row mt-5">
+                        <h4 class="text-success fw-bold">Unde praesentium sed</h4>
+                        <p class="fs-6">Voluptas vel esse repudiandae quo excepturi.</p>
+                    </div>
+                    <div class="row mt-5">
+                        <h4 class="text-success fw-bold">Pariatur explicabo vel</h4>
+                        <p class="fs-6">Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
+                    </div>
+                    <div class="row mt-5">
+                        <h4 class="text-success fw-bold">Nostrum qui quasi</h4>
+                        <p class="fs-6">Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 3 end -->
+
+    <!-- section 4 start -->
+
+    <div class="container-fluid" style="background-color: #212121; height: 80vh;">
+        <div class="container">
+            <div class="row gap-5">
+                <div class="col-5 mt-5 pt-5">
+                    <div class="row" data-aos="fade-up" { data-aos-delay="80" data-aos-duration="1500" }>
+                        <p class="fs-3 text-white">Eum ipsam laborum deleniti velit pariatur architecto aut nihil</p>
+                    </div>
+                    <div class="row" data-aos="fade-down" { data-aos-delay="80" data-aos-duration="1500" }>
+                        <p class="text-secondary fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                    </div>
+                    <div class="row" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header bg-dark text-white" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button bg-dark  text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                        aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                        Accordion Item #1
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne"
+                                    class="accordion-collapse collapse show bg-dark  text-white"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header bg-dark" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed bg-dark  text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        Accordion Item #2
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo"
+                                    class="accordion-collapse collapse bg-dark text-white"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header bg-dark" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed bg-dark  text-white" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        Accordion Item #3
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree"
+                                    class="accordion-collapse collapse bg-dark text-white"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mt-5 pt-5" data-aos="zoom-in" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/why-us.jpeg" alt="" width="100%" height="100%" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 4 end -->
+
+    <!-- section 5 start -->
+
+    <div class="container-fluid" style="background-color: #292929; height: 155vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">PORTFOLIO</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+            </div>
+            <div class="row">
+                <div class="btn-group mt-5 gap-2 col-6 m-auto" role="group" aria-label="Basic outlined example"
+                    data-aos="zoom-in" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <button type="button" class="btn btn-outline-success">All</button>
+                    <button type="button" class="btn btn-outline-success">Development</button>
+                    <button type="button" class="btn btn-outline-success">cards</button>
+                    <button type="button" class="btn btn-outline-success">Application</button>
+                </div>
+            </div>
+            <div class="row mt-5 pt-5">
+                <div class="col-4" data-aos="fade-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/portfolio-1.jpg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+                <div class="col-4" data-aos="fade-down" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/portfolio-2.jpeg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+                <div class="col-4" data-aos="fade-left" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="img/portfolio-3.jpeg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-4" data-aos="flip-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/portfolio-4.jpg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+                <div class="col-4" data-aos="zoom-in" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/portfolio-5.jpeg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+                <div class="col-4" data-aos="flip-left" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/portfolio-6.jpeg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-4" data-aos="fade-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/portfolio-7.jpeg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+                <div class="col-4" data-aos="fade-up" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/portfolio-8.jpeg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+                <div class="col-4" data-aos="fade-left" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/portfolio-9.jpg" alt=""
+                        style="border-radius:20px; width:100%; border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 5 end -->
+
+    <!-- section 6 start -->
+
+    <div class="container-fluid" style="background-color: #212121; height: 100vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">TEAM</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-down" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-4" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/team-1.jpeg" alt="" width="100%" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                    <h3 class="text-white mt-3">Walter White</h3>
+                    <h6 class="text-success">CHIEF EXECUTIVE OFFICER</h6>
+                    <p class="text-white mt-4">Animi est delectus alias quam repellendus nihil nobis dolor. Est sapiente
+                        occaecati et dolore. Omnis aut ut nesciunt explicabo qui. Eius nam deleniti ut omnis</p>
+                </div>
+                <div class="col-4" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/team-2.jpeg" alt="" width="100%" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                    <h3 class="text-white mt-3">Sarah Jhonson</h3>
+                    <h6 class="text-success">PRODUCT MANAGER</h6>
+                    <p class="text-white mt-4">Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut
+                        eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
+                </div>
+                <div class="col-4" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/team-3.jpeg" alt="" width="100%" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);">
+                    <h3 class="text-white mt-3">William Anderson</h3>
+                    <h6 class="text-success">CTO</h6>
+                    <p class="text-white mt-4">Ut enim possimus nihil cupiditate beatae. Veniam facere quae non qui
+                        necessitatibus rerum eos vero. Maxime sit sunt quo dolor autem est qui quaerat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 6 end -->
+
+    <!-- section 7 start -->
+
+    <div class="container-fluid" style="background-color: #292929; height: 100vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">PRICING</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-down" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+            </div>
+            <div class="row mt-5 gap-5">
+                <div class="col-4 text-white text-center border border-white rounded bg-dark"
+                    style="height: 500px; width: 400px;box-shadow:8px 8px 8px rgb(0, 246, 25)" data-aos="zoom-in" {
+                    data-aos-delay="80" data-aos-duration="1500" }>
+                    <div class="row mt-5">
+                        <h3>Free</h3>
+                    </div>
+                    <div class="row mt-3">
+                        <h1>0</h1>
+                        <p>$/month</p>
+                    </div>
+                    <div class="row mt-4">
+                        <h5>Aida dere</h5>
+                        <h5>Nec feugiat nisl</h5>
+                        <h5>Nulla at volutpat dola</h5>
+                        <a class="nav-link disabled text-decoration-line-through" aria-disabled="true">Pharetra
+                            massa</a>
+                        <a class="nav-link disabled text-decoration-line-through" aria-disabled="true">Massa ultricies
+                            mi</a>
+                    </div>
+                    <div class="row mt-4">
+                        <button type="button" class="btn btn-outline-success mx-auto"
+                            style="width: 120px; height: 50px;">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-4 text-white text-center border border-white rounded bg-dark"
+                    style="height: 500px; width: 400px;box-shadow:8px 8px 8px rgb(0, 246, 25)" data-aos="zoom-in" {
+                    data-aos-delay="80" data-aos-duration="1500" }>
+                    <div class="row mt-5">
+                        <h3>Business</h3>
+                    </div>
+                    <div class="row mt-3">
+                        <h1>19</h1>
+                        <p>$/month</p>
+                    </div>
+                    <div class="row mt-4">
+                        <h5>Aida dere</h5>
+                        <h5>Nec feugiat nisl</h5>
+                        <h5>Nulla at volutpat dola</h5>
+                        <h5>Pharetra massa</h5>
+                        <h6 class="disabled fw-lighter text-decoration-line-through mt-2">Massa ultricies mi</h6>
+                    </div>
+                    <div class="row mt-4">
+                        <button type="button" class="btn btn-outline-success mx-auto"
+                            style="width: 120px; height: 50px;">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-4 text-white text-center border border-white rounded bg-dark"
+                    style="height: 500px; width: 400px;box-shadow:8px 8px 8px rgb(0, 246, 25)" data-aos="zoom-in" {
+                    data-aos-delay="80" data-aos-duration="1500" }>
+                    <div class="row mt-5">
+                        <h3>Developer</h3>
+                    </div>
+                    <div class="row mt-3">
+                        <h1>29</h1>
+                        <p>$/month</p>
+                    </div>
+                    <div class="row mt-4">
+                        <h5>Aida dere</h5>
+                        <h5>Nec feugiat nisl</h5>
+                        <h5>Nulla at volutpat dola</h5>
+                        <h5>Pharetra massa</h5>
+                        <h5>Massa ultricies mi</h5>
+                    </div>
+                    <div class="row mt-4">
+                        <button type="button" class="btn btn-outline-success mx-auto"
+                            style="width: 120px; height: 50px;">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 7 end -->
+
+    <!-- section 8 start -->
+
+    <div class="container-fluid" style="background-color: #212121; height: 80vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-2 p-5" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p class="mt-5 fw-bold">FREQUENTLY ASKED QUESTIONS</p>
+            </div>
+            <div class="row" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button text-white bg-secondary" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                    aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    Non consectetur a erat nam at lectus urna duis?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body text-white bg-dark">
+                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
+                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
+                                    purus non.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body bg-dark text-white">Dolor sit amet consectetur adipiscing
+                                    elit pellentesque habitant
+                                    morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
+                                    scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
+                                    Mauris
+                                    ultrices eros in cursus turpis massa tincidunt dui.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body bg-dark text-white">Eleifend mi in nulla posuere sollicitudin
+                                    aliquam ultrices
+                                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit
+                                    amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis
+                                    convallis
+                                    convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingfour">
+                                <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                    aria-controls="flush-collapsefour">
+                                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body bg-dark text-white">Dolor sit amet consectetur adipiscing
+                                    elit pellentesque habitant
+                                    morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
+                                    scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
+                                    Mauris
+                                    ultrices eros in cursus turpis massa tincidunt dui.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingfive">
+                                <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                    aria-controls="flush-collapsefive">
+                                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body bg-dark text-white">Molestie a iaculis at erat pellentesque
+                                    adipiscing commodo.
+                                    Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas
+                                    accumsan.
+                                    Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis
+                                    cursus
+                                    in</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingsix">
+                                <button class="accordion-button collapsed bg-secondary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false"
+                                    aria-controls="flush-collapsesix">
+                                    Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem
+                                    dolor?
+                                </button>
+                            </h2>
+                            <div id="flush-collapsesix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingsix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body bg-dark text-white">Laoreet sit amet cursus sit amet dictum
+                                    sit amet justo. Mauris
+                                    vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est
+                                    sit
+                                    amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu
+                                    scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla
+                                    phasellus
+                                    faucibus. Nibh tellus molestie nunc non blandit massa enim nec.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 8 end -->
+
+    <!-- section 9 start -->
+
+    <div class="container-fluid" style="height: 90vh; background-color: #292929;">
+        <div class="container">
+            <div class="row">
+                <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                    data-aos-duration="1500" }>
+                    <h1 class="mt-5 pt-5 fw-bold">CONTACT</h1>
+                </div>
+                <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-down" { data-aos-delay="80"
+                    data-aos-duration="1500" }>
+                    <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mt-5" data-aos="fade-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <div class="row">
+                        <div class="col-5 mt-4">
+                            <textarea type="text" style="width: 300px; height: 50px;" class="form-control"
+                                placeholder="Your Name*" aria-label="object"></textarea>
+                        </div>
+                        <div class="col-7 mt-4">
+                            <textarea type="text" style="width: 320px; height: 50px; margin-left: 40px;"
+                                class="form-control" placeholder="Your Email*" aria-label="object"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-4">
+                            <textarea type="text" style="width:634px; height: 50px;" class="form-control"
+                                placeholder="Subject*" aria-label="object"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mt-4 ms-0">
+                        <textarea type="text" style="width: 634px; height: 200px;" class="form-control"
+                            placeholder="Message*" aria-label="object"></textarea>
+                    </div>
+                    <div class="row mt-4 ">
+                        <div class="col-4 mx-auto">
+                            <button type="button" class="btn text-white btn-outline-success"
+                                style=" height:50px; width:200px;">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mt-5 pt-4" data-aos="fade-left" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.763928422354!2d72.55818457600813!3d23.032438515958653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85256c128475%3A0xdefbe05c3d4074d0!2sRed%20%26%20White%20Multimedia%20Education%20-%20Navrangpura%20-%20Ahmedabad!5e0!3m2!1sen!2sin!4v1715160710145!5m2!1sen!2sin"
+                        width="600" height="450" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(0, 246, 25);"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 9 end -->
+
+
+    <!-- footer start -->
+
+    <div class="conatiner-fluid last">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/logo (1).png" class="rounded mx-auto d-block mt-5" alt="">
+                </div>
+                <p class="text-center text-white fs-4 m-auto mt-5 " style="width: 50%;" data-aos="fade-down">Kilaboris
+                    nisi ut
+                    aliquip ex
+                    ea commodo consequat uis aute cupidatat non proident sunt in culd est laborum.
+                </p>
+                <div class="d-flex gap-4 text-success fs-3 mt-5" style="margin-left: 40%; width: 300px;"
+                    data-aos="flip-up" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="row text-success" style="margin-top: 120px;">
+                    <div class="col-6">
+                        <p class="fs-5">
+                            Terms & Condition Privacy Policy</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <p class="fs-5">Terms & Condition Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer end -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS Animation -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome CDN Link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS Animation  -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>bootstrap website</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .frist {
+            background-image: url(./img/header-digital.jpeg);
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, 0.407);
+        }
+
+        .man {
+            background-image: url(./img/digital-strategy.jpeg);
+            height: 600px;
+            width: 50%;
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, 0.186);
+        }
+
+        .last {
+            background-image: url(./img/header-digital.jpeg);
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, 0.407);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start header -->
+
+    <div class="frist">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-transparent mt-3">
+                    <div class="container-fluid">
+                        <img src="./img/logo-sparrow-digital.png" alt="" height="50px" width="90px"
+                            data-aos="fade-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon bg-info"></span>
+                        </button>
+                        <div class="collapse navbar-collapse offset-1" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4 mx-auto" data-aos="fade-down" {
+                                data-aos-delay="80" data-aos-duration="1500" }>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">about</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown z-1 ">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu text-white">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- end header -->
+
+        <!-- section 1 start -->
+
+        <div class="container position-absolute top-50 start-50 translate-middle">
+
+            <div class="row text-white text-center mt-5 fs-1" data-aos="zoom-in" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="fw-bold">Welcome To sparrow</h1>
+            </div>
+            <div class="row text-secondary text-center fs-4 fst-italic mt-3" data-aos="zoom-in" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>award-winning digital marketing agency in Singapore</p>
+            </div>
+            <div class="row mt-3" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                <button type="button" class="btn btn-outline-danger mx-auto rounded-pill"
+                    style="width: 300px; height: 50px;">Get
+                    Request a Free Quote</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 1 end -->
+
+    <!-- section 2 start -->
+
+    <div class="container-fluid" style="background-color: #212121; height: 100vh;">
+        <div class="row" style="height: 180px;">
+            <div class="col-4 d-flex mt-5 gap-4" data-aos="flip-left" { data-aos-delay="80" data-aos-duration="1500" }>
+                <div class="mt-3 ms-3">
+                    <img src="./img/icon-startup.png" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div class="">
+                    <h5 class="text-danger fs-3">organic search optimization</h5>
+                    <p class="text-secondary mb-4 d-flex">If you’re not in the first page of organic search results,
+                        your potential customers won’t even know that you exist. Let us fix that for you.</p>
+                </div>
+            </div>
+
+            <div class="col-4 d-flex mt-5 gap-4" data-aos="flip-down" { data-aos-delay="80" data-aos-duration="1500" }>
+                <div class="mt-3">
+                    <img src="./img/icon-target.png" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div class="">
+                    <h5 class="text-danger fs-3">conversion rate optimization</h5>
+                    <p class="text-secondary mb-4 d-flex">Turn your visitors into customers with our team of experts.
+                        We'll analyze your website and develop a suitable conversion strategy.</p>
+                </div>
+            </div>
+            <div class="col-4 d-flex mt-5 gap-4" data-aos="flip-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                <div class="mt-3">
+                    <img src="./img/icon-teamwork.png" alt="" style="height: 60px; width: 60px;">
+                </div>
+                <div>
+                    <h5 class="text-danger fs-3">advanced website analytics</h5>
+                    <p class="text-secondary mb-4 d-flex">We help you measure what's working and what isn't, and improve
+                        the performance of your website to meet your business objectives.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-5" data-aos="fade-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/digital-01.png" alt="" style="margin-top:100px;" height="600px" width="400px">
+                </div>
+                <div class="col-7 text-white" style="margin-top:140px;" data-aos="fade-left" { data-aos-delay="80"
+                    data-aos-duration="1500" }>
+                    <h3 class="mt-5 fw-bold">appear on the first page of google!</h3>
+                    <p class="mt-5 text-secondary">We offer professional SEO services that help websites rise in rank on
+                        Google and
+                        other search engines — even when it comes to highly competitive keywords. A sound search engine
+                        marketing plan that includes SEO is essential to increasing your website’s visibility.</p>
+                    <div class="row mt-5">
+                        <div class="col-4 d-flex">
+                            <div>
+                                <i class="fa-solid fa-cube fs-1" style="color: #ff0000; height: 50px; width: 50px;""></i>
+                            </div>
+                            <div>
+                                <p class=" fst-italic">Rely on an <br> experienced team</p>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex">
+                            <div>
+                                <i class="fa-regular fa-clock fs-1" style="color: #1ef202; height: 50px; width: 50px;""></i>
+                            </div>
+                            <div>
+                                <p class=" fst-italic">Rely on an <br> experienced team</p>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex">
+                            <div>
+                                <i class="fa-regular fa-face-smile-wink fs-1"
+                                    style="color: #2e96e5; height: 50px; width: 50px;"></i>
+                            </div>
+                            <div>
+                                <p class="fst-italic">Rely on an <br> experienced team</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-danger mt-4 rounded-pill"
+                        style="height:50px; width: 300px;" data-aos="fade-left" { data-aos-delay="80"
+                        data-aos-duration="1500" }>-> Learn More About US</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 2 end -->
+
+    <!-- section 3 start -->
+
+    <div class="container-fluid" style="background-color: #292929; height: 100vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">PRICING</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-down" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+            </div>
+            <div class="row mt-5 gap-5">
+                <div class="col-4 text-white text-center border border-white rounded bg-dark"
+                    style="height: 500px; width: 400px;box-shadow:8px 8px 8px rgb(255, 0, 0)" data-aos="zoom-in" {
+                    data-aos-delay="80" data-aos-duration="1500" }>
+                    <div class="row mt-5">
+                        <h3>Free</h3>
+                    </div>
+                    <div class="row mt-3">
+                        <h1>0</h1>
+                        <p>$/month</p>
+                    </div>
+                    <div class="row mt-4">
+                        <h5>Aida dere</h5>
+                        <h5>Nec feugiat nisl</h5>
+                        <h5>Nulla at volutpat dola</h5>
+                        <h5>Pharetra massa</h5>
+                        <h6 class="disabled fw-lighter text-decoration-line-through mt-2">Massa ultricies mi</h6>
+                    </div>
+                    <div class="row mt-4">
+                        <button type="button" class="btn btn-outline-danger mx-auto"
+                            style="width: 120px; height: 50px;">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-4 text-white text-center border border-white rounded bg-dark"
+                    style="height: 500px; width: 400px;box-shadow:8px 8px 8px rgb(255, 0, 0)" data-aos="zoom-in" {
+                    data-aos-delay="80" data-aos-duration="1500" }>
+                    <div class="row mt-5">
+                        <h3>Business</h3>
+                    </div>
+                    <div class="row mt-3">
+                        <h1>19</h1>
+                        <p>$/month</p>
+                    </div>
+                    <div class="row mt-4">
+                        <h5>Aida dere</h5>
+                        <h5>Nec feugiat nisl</h5>
+                        <h5>Nulla at volutpat dola</h5>
+                        <h5>Pharetra massa</h5>
+                        <h6 class="disabled fw-lighter text-decoration-line-through mt-2">Massa ultricies mi</h6>
+                    </div>
+                    <div class="row mt-4">
+                        <button type="button" class="btn btn-outline-danger mx-auto"
+                            style="width: 120px; height: 50px;">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-4 text-white text-center border border-white rounded bg-dark"
+                    style="height: 500px; width: 400px;box-shadow:8px 8px 8px rgb(246, 0, 0)" data-aos="zoom-in" {
+                    data-aos-delay="80" data-aos-duration="1500" }>
+                    <div class="row mt-5">
+                        <h3>Developer</h3>
+                    </div>
+                    <div class="row mt-3">
+                        <h1>29</h1>
+                        <p>$/month</p>
+                    </div>
+                    <div class="row mt-4">
+                        <h5>Aida dere</h5>
+                        <h5>Nec feugiat nisl</h5>
+                        <h5>Nulla at volutpat dola</h5>
+                        <h5>Pharetra massa</h5>
+                        <h5>Massa ultricies mi</h5>
+                    </div>
+                    <div class="row mt-4">
+                        <button type="button" class="btn btn-outline-danger mx-auto"
+                            style="width: 120px; height: 50px;">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 3 end -->
+
+    <!-- section 4 start -->
+
+    <div class="container-fluid" style="background-color: #212121; height: 100vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">complete digital marketing solution</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-4" data-aos="fade-down" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>Search engine optimization (SEO) and social media marketing (SMM) experts</p>
+            </div>
+            <div class="row mt-5 pt-5 text-info fs-4">
+                <div class="col-3" data-aos="fade-up" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/digital-02.png" alt="" height="400px" width="280px">
+                    <p>Social media marketing</p>
+                </div>
+                <div class="col-3" data-aos="fade-down" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/digital-03.png" alt="" height="400px" width="280px">
+                    <p>Organic Long-Term SEO</p>
+                </div>
+                <div class="col-3" data-aos="fade-up" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/digital-04.png" alt="" height="400px" width="280px">
+                    <p>Advanced Web Analytics</p>
+                </div>
+                <div class="col-3" data-aos="fade-down" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/digital-05.png" alt="" height="400px" width="280px">
+                    <p>Pay Per Click Management</p>
+                </div>
+            </div>
+            <div class="row mt-5" data-aos="zoom-in" { data-aos-delay="80" data-aos-duration="1500" }>
+                <button type="button" class="btn btn-outline-danger rounded mx-auto"
+                    style="width: 300px; height: 50px;">Get
+                    Request a Free Quote</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 4 end -->
+
+    <!-- section 5 start -->
+
+    <div class="container-fluid" style="background-color: #292929; height: 100vh;">
+        <div class="row">
+            <div class="col-6 man" style="margin-top: 170px;" data-aos="fade-right" { data-aos-delay="80"
+                data-aos-duration="1500" }></div>
+            <div class="col-6 text-white p-5" style="margin-top: 170px;" data-aos="fade-left" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="text-danger mt-5">Web Craft</h1>
+                <p class="text-secondary mt-4">STORIES THAT GET YOUR BRAND THE LOVE IT DESERVES</p>
+                <p class="mt-5 fs-5"> A surefire way to your target audience’s hearts is through compelling and engaging
+                    storytelling.
+                    Adding our personal touch of awe-inspiration, we aim to make them fall in love with your brand.
+                    These elements come together to form the basis for our multi-platform websites and applications that
+                    also work well on, yes, Internet Explorer.</p>
+                <p class="mt-3 fs-5">Let’s face it — nobody wants to head into the battlefield unprepared. That’s where
+                    we come in. With
+                    Sparrow, you are on one big team. We tailor-cut to your needs by crafting strategies that will
+                    engage your audience and build a loyal following. Expand your digital empire with us.</p>
+                <button type="button" class="btn btn-outline-danger mt-4 rounded mx-auto"
+                    style="width: 200px; height: 50px;" data-aos="fade-up" { data-aos-delay="80"
+                    data-aos-duration="1500" }>Get
+                    Hire US ></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 5 end -->
+
+    <!-- section 6 start -->
+
+    <div class="container-fluid" style="background-color: #212121; height: 100vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">proud to be working with</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-down" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>Since 2009, we have forged close relationships with over 100 brands allowing us to gain a wide
+                    experience marketing vastly different product types and services from various industries, locally,
+                    regionally and globally.</p>
+            </div>
+            <div class="row mt-5 pt-5 ms-5 ps-5" data-aos="fade-up" { data-aos-delay="80" data-aos-duration="1500" }>
+                <div class="col-3">
+                    <img src="./img/23.png" alt="" height="100px" width="140px" class="bg-white rounded">
+                </div>
+                <div class="col-3">
+                    <img src="./img/22.png" alt="" height="100px" width="140px" class="bg-white rounded">
+                </div>
+                <div class="col-3">
+                    <img src="./img/24.png" alt="" height="100px" width="140px" class="bg-white rounded">
+                </div>
+                <div class="col-3">
+                    <img src="./img/26.png" alt="" height="100px" width="140px" class="bg-white rounded">
+                </div>
+            </div>
+            <div class="row mt-5 pt-5 ms-5 ps-5" data-aos="fade-down" { data-aos-delay="80" data-aos-duration="1500" }>
+                <div class="col-3">
+                    <img src="./img/13.png" alt="" height="100px" width="140px" class="bg-white rounded">
+                </div>
+                <div class="col-3">
+                    <img src="./img/04.png" alt="" height="100px" width="140px" class="bg-white rounded">
+                </div>
+                <div class="col-3">
+                    <img src="./img/27.png" alt="" height="100px" width="140px" class="bg-white rounded">
+                </div>
+                <div class="col-3">
+                    <img src="./img/14.png" alt="" height="100px" width="140px" class="bg-white rounded">
+                </div>
+            </div>
+            <div class="row mt-5 pt-5" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                <button type="button" class="btn btn-outline-danger rounded mx-auto"
+                    style="width: 300px; height: 50px;">Let's Get Work
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 6 end -->
+
+    <!-- section 7 start -->
+
+    <div class="container-fluid" style="background-color: #000000; height: 100vh;">
+        <div class="container">
+            <div class="row text-white text-center fs-1" data-aos="fade-up" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <h1 class="mt-5 pt-5 fw-bold">speak to us!</h1>
+            </div>
+            <div class="row text-secondary text-center mt-3 fs-5" data-aos="fade-down" { data-aos-delay="80"
+                data-aos-duration="1500" }>
+                <p>The digital landscape is constantly evolving; just when you think you’ve gotten the hang of it, you
+                    realise that things are a-changing once again. And we are here to help.</p>
+            </div>
+            <div class="row">
+                <div class="col-6 mt-5" data-aos="fade-right" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <div class="row">
+                        <div class="col-5 mt-4">
+                            <textarea type="text" style="width: 300px; height: 50px;" class="form-control"
+                                placeholder="Your Name*" aria-label="object"></textarea>
+                        </div>
+                        <div class="col-7 mt-4">
+                            <textarea type="text" style="width: 320px; height: 50px; margin-left: 40px;"
+                                class="form-control" placeholder="Your Email*" aria-label="object"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-4">
+                            <textarea type="text" style="width:634px; height: 50px;" class="form-control"
+                                placeholder="Subject*" aria-label="object"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mt-4 ms-0">
+                        <textarea type="text" style="width: 634px; height: 200px;" class="form-control"
+                            placeholder="Message*" aria-label="object"></textarea>
+                    </div>
+                    <div class="row mt-4 ">
+                        <div class="col-4 mx-auto">
+                            <button type="button" class="btn text-white btn-outline-danger"
+                                style=" height:50px; width:200px;">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mt-5 pt-4" data-aos="fade-left" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.763928422354!2d72.55818457600813!3d23.032438515958653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85256c128475%3A0xdefbe05c3d4074d0!2sRed%20%26%20White%20Multimedia%20Education%20-%20Navrangpura%20-%20Ahmedabad!5e0!3m2!1sen!2sin!4v1715160710145!5m2!1sen!2sin"
+                        width="600" height="450" class="rounded"
+                        style="border:2px solid rgb(255, 255, 255); box-shadow:8px 8px 8px rgb(246, 0, 0);"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 7 end -->
+
+    <!-- footer start -->
+
+    <div class="conatiner-fluid last">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="zoom-out" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <img src="./img/logo-sparrow-digital.png" class="rounded mx-auto d-block mt-5" alt="">
+                </div>
+                <p class="text-center text-white fs-4 m-auto mt-5 " style="width: 50%;" data-aos="fade-down">Kilaboris
+                    nisi ut
+                    aliquip ex
+                    ea commodo consequat uis aute cupidatat non proident sunt in culd est laborum.
+                </p>
+                <div class="d-flex gap-4 text-danger fs-3 mt-5" style="margin-left: 40%; width: 300px;"
+                    data-aos="flip-up" { data-aos-delay="80" data-aos-duration="1500" }>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="row text-danger" style="margin-top: 120px;">
+                    <div class="col-6">
+                        <p class="fs-5">
+                            Terms & Condition Privacy Policy</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <p class="fs-5">Terms & Condition Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer end -->
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS Animation -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>

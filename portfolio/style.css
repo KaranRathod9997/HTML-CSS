@@ -1,0 +1,206 @@
+.main {
+    background: url(./img/hero-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 945px;
+    margin-top: 0px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+.cont{
+    height: 86vh;
+}
+
+.facebook{
+    margin-top: 10px;
+}
+
+.facebook:hover{
+    color: #de3549;
+}
+
+.box{
+    background-color: #ff5736;
+    height: 600px;
+    margin-top: -20px;
+    margin-left: 100px;
+    rotate: 40deg;
+    width: 300px;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {transform: rotate(10deg);}
+    50% {transform: rotate(-10deg);}
+    100% {transform: rotate(10deg);}
+  }
+
+.aniem{
+    animation-name: new;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes new {
+    0% {transform: translate(0px);}
+    50% {transform: translate(-40px);}
+    100% {transform: translate(0px);}
+  }
+
+  .anie{
+    animation-name: up;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes up {
+    0% {transform: translate(0px);}
+    50% {transform: translatey(-40px);}
+    100% {transform: translatey(0px);}
+  }
+
+.frist{
+    top: 240px;
+    left: 200px;
+}
+
+.second{
+    top: 280px;
+    left: 44%;
+}
+
+.third{
+    top: 240px;
+    left: 89%;
+}
+
+.fourth{
+    top: 670px;
+    left: 200px;
+}
+
+.fifth{
+    top: 760px;
+    left: 89%;
+}
+.sixth{
+    top: 80px;
+    left: 10%;
+}
+
+.seventh{
+    top: 760px;
+    left: 89%;
+}
+
+.eighth{
+    left: 100px;
+}
+
+.nineth{
+    top: 200px;
+    left: 100px;
+}
+
+.tenth{
+   left: 90vw;
+}
+
+.eleven{
+    top: 200px;
+    left: 100px;
+}
+
+.twealy{
+    top: 680px;
+    left: 90vw;
+}
+
+.thirteen{
+    left: 100px; 
+}
+
+.fourthine{
+    left: 100px;
+    top: -40px;
+}
+
+
+
+
+
+
+.caption{
+    width: 900px;
+    text-align: center;
+    justify-content:center;
+}
+
+.card:hover{
+    transform: rotate(15deg);
+    transition: none;
+}
+
+.backo:hover{
+    transform: rotate(-15deg);
+    transition: 1s;
+}
+
+.man{
+    top: 120px;
+    left: 130px;
+}
+
+.mano{
+    top: 440px;
+}
+
+.four{
+    background-image: url(./img/skill-bg.jpeg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+
+
+.backone:hover{
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.603);
+    opacity: 50%;
+   
+}
+
+
+.overtwo:hover {
+    background-color: #fff;
+    opacity: 50%;
+    transition: all 0.4s ease;
+}
+
+
+
+.cardo:hover{
+    background-color: #404040;
+}
+
+
+.eight{
+    background-image: url(./img/footer-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    height: 51vh;
+    width: 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.432);
+}
