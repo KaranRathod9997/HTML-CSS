@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnightOne</title>
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awsome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="startsection">
+
+        <!-- ----- header start ----- -->
+
+        <header>
+            <nav>
+                <div class="nav_element">
+                    <h1 class="logo">KnightOne</h1>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">services</a></li>
+                            <li><a href="#">protfolio</a></li>
+                            <li><a href="#">pricing</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">dropdown</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">dropdown1</a></li>
+                                    <li><a href="#">dropdown2</a></li>
+                                    <li><a href="#">dropdown3</a></li>
+                                    <li><a href="#">dropdown4</a></li>
+                                    <li><a href="#">dropdown5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </div>
+                    <button class="getstart">
+                        Get Started
+                    </button>
+                </div>
+                <hr class="horizontal_line">
+            </nav>
+        </header>
+
+        <!-- ----- header end ----- -->
+
+
+        <!-- ----- Section one start ----- -->
+
+        <div class="front_section">
+            <p class="main_content">Welcome to Our Website</p>
+            <p class="secondery_content">We are team of talented designers making websites with Bootstrap</p>
+            <div>
+                <i class="fa-solid fa-circle-play play_icon"></i>
+            </div>
+        </div>
+
+        <!-- ----- Section one end ----- -->
+    </section>
+
+    <!-- ----- Section two start ----- -->
+
+    <section class="main_section_two">
+        <div class="section_two">
+            <h1 class="about">About</h1>
+            <hr class="horizontal_line_two">
+            <p class="about_description">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur
+                velit</p>
+        </div>
+        <div class="two_main">
+            <div class="section_two">
+                <div>
+                    <p class="about_main_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor <br>incididunt ut labore
+                        et dolore magna aliqua.</p>
+                    <div class="about_details">
+                        <p><i class="fa-regular fa-circle-check about_icon"></i>Ullamco laboris nisi ut aliquip ex ea
+                            commod
+                            consequat.</p>
+
+                        <p><i class="fa-regular fa-circle-check about_icon"></i>Duis aute irure dolor in reprehenderit
+                            in
+                            voluptate velit.</p>
+
+                        <p><i class="fa-regular fa-circle-check about_icon"></i>Ullamco laboris nisi ut aliquip ex ea
+                            commodo</p>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <p class="about_details_two">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor
+                    in <br> reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint<br> occaecat cupidatat
+                    non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est<br> laborum.</p>
+                <button class="read_more">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----- Section two end ----- -->
+
+</body>
+
+<script>
+    const playIcon = document.querySelector('.play_icon');
+
+    // Hover effect: Change icon to pause
+    playIcon.addEventListener('mouseover', function () {
+        playIcon.classList.remove('fa-circle-play');  // Remove play icon
+        playIcon.classList.add('fa-circle-pause');    // Add pause icon
+    });
+
+    // Hover out effect: Change back to play icon
+    playIcon.addEventListener('mouseout', function () {
+        playIcon.classList.remove('fa-circle-pause'); // Remove pause icon
+        playIcon.classList.add('fa-circle-play');     // Add play icon back
+    });
+
+</script>
+
+</html>
