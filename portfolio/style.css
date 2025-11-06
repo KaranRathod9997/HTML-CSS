@@ -198,8 +198,8 @@
     background-image: url(./img/footer-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 5%;
-    height: 51vh;
+    margin-top: 64px;
+    height: 52vh;
     width: 100%;
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.432);
